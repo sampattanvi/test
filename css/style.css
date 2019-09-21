@@ -1,0 +1,654 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  max-width:100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.no-pd-mr{
+	padding:0;
+	margin:0;
+}
+.nav {
+  height: 80px;
+  width: 100%;
+  background-color: #00a1a3;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 20px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+
+.nav > .nav-links > a {
+  display: inline-block;
+  padding:28px 10px 30px 10px;
+  text-decoration: none;
+  text-transform:uppercase;
+  color:#ffffff;
+  font-size:15px;
+}
+
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav > #nav-check {
+  display: none;
+}
+.header{
+	background:#00a1a3;
+}
+.borderline{
+	 border:1px solid #00a1a3;
+}
+.banner_bg{
+	background:url('../images/banner.jpg') no-repeat fixed center center;
+	background-size:cover;
+	min-height:610px;
+	max-width:100%;
+}
+.stories-block{
+	padding:35px 0;
+}
+.stories-block h1{
+	font-weight:600;
+	font-size:45px;
+	color:#333333;
+	margin:0 0 40px 0;
+} 
+h1:after {
+     background: none repeat scroll 0 0 #00a1a3;
+     bottom: -5px;
+     content: "";
+     display: block;
+     height: 3px;
+     position: relative;
+     width:40px;
+ }
+
+.story_block{
+	padding:30px 20px;
+width: 498px;
+box-shadow: -0.776px 2.898px 35px rgba(0,0,0,0.16);
+background-color: #ffffff;
+position:relative;
+}
+.img_pos:before{
+	width: 0;
+	content:" ";
+	height: 0;
+	border-style: solid;
+	border-width: 141px 0 0 141px;
+	border-color: transparent transparent transparent #00a0a357;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.zoomimg { position: relative; overflow: hidden; }
+.zoomimg .img_product { max-width: 100%; -moz-transition: all 0.3s; -webkit-transition: all 0.3s; transition: all 0.3s; }
+.zoomimg:hover .img_product { -moz-transform: scale(1.1); -webkit-transform: scale(1.1); transform: scale(1.1); }
+
+h2.title{
+	padding-top:20px;
+	font-size:20px;
+	line-height:30px;
+	font-weight:600;
+}
+.story_block p{
+	font-size:14px;
+	color:#666666;
+}
+.view-more i {
+    -webkit-text-stroke: 2px #ffffff;
+    font-size: 30px;
+    line-height: 1px;
+    vertical-align: middle;
+    padding: 0 10px;
+    color: #00a1a3;
+}
+.view-more{
+    padding-top: 40px;
+    display: block;
+	color:#333333;
+	text-transform:uppercase;
+	
+}
+.view-more:hover{
+	  color: #00a1a3;
+}
+.view-more-white:hover{
+	color:#ffffff;
+}
+.view-more-green1 i{
+	-webkit-text-stroke: 2px #00a1a3 !important;
+}
+.view-more-green i{
+	-webkit-text-stroke: 2px #07888d !important;
+}
+.view-more-white i{
+	   -webkit-text-stroke: 2px #32353e;
+    font-size: 30px;
+    line-height: 1px;
+    vertical-align: middle;
+    padding: 0 10px;
+    color: #ffffff;
+}
+.view-more-white{
+	font-size:14px;
+    padding-top: 40px;
+    display: block;
+	color:#FFFFFF;
+	text-transform:uppercase;
+}
+.right{
+	float:right;
+}
+
+.img_pos{
+	margin:0 -90px;
+	position:relative;
+}
+.s2-block{
+	font-size:0;
+}
+
+.s2-block .text-side{
+	width:50%;
+	display:inline-block;
+	background:#00a1a3;
+	min-height:594px;
+	vertical-align:top;
+}
+.s2-block .text-side h1{
+	font-size: 45px;
+	letter-spacing: 1px;
+	line-height: 60px;
+	color: #fcfcfc;
+	font-family: "Montserrat";
+	font-weight: 700;
+	
+}
+.s2-block .text-side h1:after {
+     background: none repeat scroll 0 0 #ffffff;
+     bottom: -5px;
+     content: "";
+     display: block;
+     height: 3px;
+     position: relative;
+     width:40px;
+ }
+/* .s2-block .image-side .img{
+	max-width:100%;
+	background:url(../images/ss-1.jpg) top left;
+	vertical-align:top;
+	height:594px;
+	background-size:cover;} */
+	
+.s2-block .image-side{
+	width:50%;
+	display:inline-block;
+	background:#000000;
+	min-height:594px;
+}
+.small-desc{
+	padding-top:20px;
+	font-size: 16px;
+	letter-spacing: 0px;
+	line-height: 25px;
+	color: #fcfcfc;
+	font-family: "Montserrat";
+	font-weight: 600;
+	font-style: italic;
+}
+.desc{
+	width: 392px;
+	font-size: 14px;
+	letter-spacing: 0px;
+	line-height: 22px;
+	color: #fcfcfc;
+	font-family: "Montserrat";
+	font-weight: 500;
+	text-align: left;
+}
+.pd-l-80{
+	padding:30px  30px 30px 90px;
+}
+.c-white{
+	color:#ffffff !important;
+}
+.about-block{
+	font-size:0;
+}
+.about-block .sect{
+	width:33.33%;
+	display:inline-block;
+	vertical-align:top;
+}
+.bg{
+	max-width:100%;
+	background-repeat:no-repeat !important;
+	vertical-align:top;
+	min-height:495px;
+	background-size: cover !important;
+}
+.bg-1{
+	background:url(../images/bg-1.jpg) top left;
+}
+.bg-2{
+	background:url(../images/bg-2.jpg) top left;
+}
+.bg-3{
+	background:url(../images/bg-3.jpg) top left;
+}
+.content{
+	padding:80px 44px 20px 44px;
+	position:absolute;top:0;
+}
+.content h3{
+	font-size:25px;
+	color:#fff;
+	padding:20px 0;
+}
+.content p{
+	font-size:14px;
+	color:#fff;
+}
+.updated{
+	text-align:center;
+	padding:45px 0 0 0;
+	margin:0px auto;
+	max-width:550px;
+}
+.updated h4{
+	font-size: 26px;
+	line-height: 34px;
+	color: #000000;
+	font-family: "Montserrat";
+	font-weight: 500;
+	text-align:left;
+	
+}
+form{
+	border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 7px;
+	text-align:left;
+	margin-bottom:30px;
+}
+::-webkit-input-placeholder { /* Edge */
+	font-size: 14px;
+	letter-spacing: 0px;
+	line-height: 34px;
+	color: #000000;
+	font-family: "Montserrat";
+	font-weight: 400;padding:0 10px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	font-size: 14px;
+	letter-spacing: 0px;
+	line-height: 34px;
+	color: #000000;
+	font-family: "Montserrat";
+	font-weight: 400;padding:0 10px;
+}
+
+::placeholder {
+	font-size: 14px;
+	letter-spacing: 0px;
+	line-height: 34px;
+	color: #000000;
+	font-family: "Montserrat";
+	font-weight: 400;padding:0 10px;
+}
+form input{
+	border:none;
+	background:#ffffff; 
+	padding:0; 
+	width:85%;
+	border-right:1px solid #e7e7e7;
+}
+.clearfix{
+	clear:both;
+}
+form button{
+	border:none;
+	background:none;
+	text-align: center;
+    width: 12%;
+}
+.pd-0{
+	padding:0px !important;
+}
+.pd-0 i{
+	padding:0px !important;
+}
+
+
+footer .nav-links{
+	border-bottom:2px solid #e7e7e7;
+	padding:15px;
+}
+footer div > span{
+	font-size: 12px;
+	letter-spacing: 0px;
+	line-height: 65px;
+	color: #333333;
+	font-family: "Montserrat";
+	font-weight: 400
+}
+footer .links{
+	font-size: 12px;
+	letter-spacing: 0px;
+	color: #333333;
+	font-family: "Montserrat";
+	font-weight: 500;
+	text-align: right;
+	display:inline-block;
+	text-transform:uppercase;
+	padding-right:30px;
+}
+footer .links:hover{
+	color: #00a1a3;
+	text-decoration:none;
+}
+footer{
+	background:#f2f2f2;
+	padding:5px 0;
+	text-align:center;
+	
+}
+a:hover{
+	text-decoration:none;
+}
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.social-icon .fa {
+    padding: 7px 6px;
+    width: 28px;
+    margin-right: 6px;
+    height: 28px;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+    background-color: #cccccc;
+    border-radius: 50%;
+}
+.social-icon .fa:hover {
+    background-color: #00a1a3;
+}
+  .carousel-control.left {
+    background-image: none; 
+    filter: none;
+    background-repeat: no-repeat;
+}
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: none;
+    filter: none;
+    background-repeat: no-repeat;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    font-size: 18px;
+    border-radius: 40px;
+    background: #cecece;
+    opacity: 1;
+}
+
+.carousel-control{
+	opacity:1;
+	text-shadow:none;
+}
+ .carousel-control .glyphicon-chevron-right{
+	 background:#00a1a3;
+ }
+
+.bg-map {
+    background: url(../images/map1.jpg) center right;
+    min-height: 700px;
+    width: 100%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+	position:relative;
+}
+
+.lwgwnd-text{
+	position:absolute;
+	left:7%;bottom:3%;
+	width:400px;
+}
+.Map-area{
+	position:relative;
+}
+
+.lwgwnd-text .small{
+font-size: 18px;
+color: #666666;
+font-family: "Montserrat";
+font-weight: 500;
+}
+.lwgwnd-text .high{
+font-size: 30px;
+letter-spacing: 1px;
+line-height: 35px;
+color: #666666;
+font-family: "Montserrat";
+font-weight: 700;	
+}
+.lwgwnd-text h1{
+font-weight:bold}
+
+.block-legend{
+	width:100%;
+padding:10px;
+float:left;
+}
+.d-block{
+	display:inline-block;
+	vertical-align:top;
+}
+
+/******************** Media Queries **********************/
+
+@media only screen and (max-width: 1200px) {
+.nav > .nav-links > a {  padding: 15px 5px 13px 5px;font-size:12px;}
+.right{float:left;}
+.img_pos{margin:0px}
+.story_block{width:auto;margin:25px auto;}
+.story_block .col-md-7, .story_block .col-md-5, .story_block .col-md-5 img{display:block;width:100%;}
+.pd-l-80 {  padding: 30px 30px 30px 50px;}
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+.bg-map{
+	min-height:660px;background-size:75%;
+}
+}
+
+
+@media only screen and (max-width: 992px) {
+	.stories-block{padding-left:15px; padding-right:15px;}
+	.col-md-5 img{width:100%;}
+	.desc{width:auto;}
+	.about-block .sect{width:100%;}
+	.s2-block .text-side, .s2-block .image-side{width:100%;display:block;}
+	.story_block .col-md-7, .story_block .col-md-5{display:inline-block;width:auto;margin:20px auto}
+	.pd-l-80 { padding: 10px;}
+	footer div > span{line-height:40px;}
+}
+@media only screen and (max-width: 991px) {
+	.bg-map{
+		background-size:100%;
+	}
+	.lwgwnd-text {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 30px;
+	float:left;
+}
+.Map-area{
+margin-bottom:30px;
+}
+}
+@media only screen and (max-width: 768px) {
+	footer .links{
+		line-height:25px;
+		padding-right:20px;
+	}
+	.bg-map{
+	min-height:500px;
+}
+  .nav > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  .updated h4{
+	  padding:10px;
+  }
+  .updated img{
+	  padding-bottom:10px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+  .nav > #nav-check:not(:checked) ~ .nav-links {
+    height: 0px;
+  }
+  .nav > #nav-check:checked ~ .nav-links {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+  .carousel .item{
+	min-height:400px
+	}
+	.s2-block .text-side{
+		min-height:480px;
+	}
+}
+
+ 
+/* Since positioning the image, we need to help out the caption */
+ .carousel-caption {
+    z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+ .carousel .item {
+    width: 100%;
+    min-height: 594px;
+    background-color: #777;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+@media (min-width: 768px) {
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+	
+}
+
+ @media only screen and (max-width: 640px){
+.bg-map {
+    min-height: 291px;
+ }
+ .s2-block .text-side h1,.stories-block h1,.lwgwnd-text h1{font-size:24px}
+ .updated h4{
+ font-size:18px;}
+ }
+  @media only screen and (max-width: 480px){
+	 .d-block {
+    display: block;
+    vertical-align: top;
+}
+ }
+ @media only screen and (max-width: 380px){
+.bg-map {
+    min-height: 260px;
+}
+ }
